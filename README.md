@@ -56,7 +56,7 @@ source venv/bin/activate
 .\venv\Scripts\activate
 2. **Install dependencies**
 
-```bash pip install streamlit sqlalchemy```
+```pip install streamlit sqlalchemy```
 ## Usage
 **Run the app locally:**
 
