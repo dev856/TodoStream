@@ -47,14 +47,13 @@ TodoStream is a lightweight, interactive Todo application built with Streamlitâ€
    cd streamtodo```
 Create and activate a virtual environment
 
-bash
-Copy
-Edit
-python3 -m venv venv
+
+```python3 -m venv venv```
 # On macOS/Linux:
-source venv/bin/activate
+```source venv/bin/activate```
 # On Windows:
-.\venv\Scripts\activate
+```.\venv\Scripts\activate```
+
 2. **Install dependencies**
 
 ```pip install streamlit sqlalchemy```
