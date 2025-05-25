@@ -77,7 +77,7 @@ Adjust the Time-To-Live on the @st.cache_resource decorator to control metadata 
 
 4. **Project Structure**
 
-  streamtodo/
+  ```streamtodo/
   ├── app.py              # Main Streamlit application
   ├── requirements.txt    # Minimal pinned dependencies
-  └── README.md           # Project documentation
+  └── README.md```           # Project documentation
