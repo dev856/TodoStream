@@ -1,6 +1,7 @@
-# StreamTodo
+# TodoStream
 
-StreamTodo is a lightweight, interactive Todo application built with Streamlit’s Python-first web framework and SQLAlchemy’s Core API for persistence. It lets you create, read, update, and delete tasks—all in a clean, easy-to-use interface with SQL database backing.
+A fluid, Python-powered task manager built with Streamlit and SQLAlchemy.
+TodoStream is a lightweight, interactive Todo application built with Streamlit’s Python-first web framework and SQLAlchemy’s Core API for persistence. It lets you create, read, update, and delete tasks—all in a clean, easy-to-use interface with SQL database backing.
 
 ---
 
