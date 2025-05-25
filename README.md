@@ -44,3 +44,47 @@ StreamTodo is a lightweight, interactive Todo application built with Streamlit�
    ```bash
    git clone https://github.com/yourusername/streamtodo.git
    cd streamtodo
+Create and activate a virtual environment
+
+bash
+Copy
+Edit
+python3 -m venv venv
+# On macOS/Linux:
+source venv/bin/activate
+# On Windows:
+.\venv\Scripts\activate
+Install dependencies
+
+bash
+Copy
+Edit
+pip install streamlit sqlalchemy
+Usage
+Run the app locally:
+
+bash
+Copy
+Edit
+streamlit run app.py
+Open your browser to http://localhost:8501.
+
+In the Admin sidebar, click Create Table to initialize the database.
+
+Add, edit, delete, and mark todos directly from the web interface.
+
+Configuration
+Page Settings
+Controlled by st.set_page_config at the top of app.py.
+
+Cache TTL
+Adjust the Time-To-Live on the @st.cache_resource decorator to control metadata caching.
+
+Project Structure
+bash
+Copy
+Edit
+streamtodo/
+├── app.py              # Main Streamlit application
+├── requirements.txt    # Minimal pinned dependencies
+└── README.md           # Project documentation
